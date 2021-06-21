@@ -1,4 +1,4 @@
-#What does it mean to visualize a simulation?
+# What does it mean to visualize a simulation?
 
 An advantage of simulating materials is that we can learn, not only about 
 how a material will settle given, for example, the number of particles, density, and temperature,
