@@ -15,7 +15,7 @@ The cmelab is currently utilizing two distinct resources for this purpose. They 
 for doing so can be found [here](https://github.com/cmelab/getting-started/tree/master/config_files). This file tells
 VMD how to look and react to a specific user. You can create or edit this file by typing ~/.vmdrc in your 
 command line. VMD requires a plugin to read the output from most of the simulations run in this lab (gsd files).
-Installation instructions can be found [here](https://github.com/cmelab/getting-started/blob/master/wiki/pages/Installing_the_Frequently-Used_Programs_for_CME-Lab.md) under the "Installing Visual Molecular Dynamics (VMD)" header.
+Installation instructions can be found [here](pages/Installing_the_Frequently-Used_Programs_for_CME-Lab.md) under the "Installing Visual Molecular Dynamics (VMD)" header.
 1. [Ovito](https://www.ovito.org/macos-downloads/) is a propreitary software package with a free basic version availaible for download. Getting off the ground may be faster with Ovito, but if we outgrow the basic version's 
 functionality, someone will have to pay for an upgrade! A notable advantage of Ovito is the ability to
 view the output from a simulation remotely.
