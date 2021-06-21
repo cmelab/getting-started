@@ -13,7 +13,7 @@ The cmelab is currently utilizing two distinct resources for this purpose. They 
 
 1. [VMD](http://www.ks.uiuc.edu/Research/vmd/) is an open source software package. The interface may be unintuitive to begin, but our lab has more expertise with this tool at present. VMD is highly configurable! An example .vmdrc file
 for doing so can be found [here](https://github.com/cmelab/getting-started/tree/master/config_files). This file tells
-VMD how to look and react to a specific user. You can create or edit this file by typing ~/.vmdrc in your 
+VMD how to look and react to a specific user. You can get this file locally by running `make` in the root directory of this repository (this'll copy all the config files into your home directory) or by copying the files individually. Once copied, you can view or edit this file by running `vim ~/.vmdrc` in your 
 command line. VMD requires a plugin to read the output from most of the simulations run in this lab (gsd files).
 Installation instructions can be found [here](pages/Installing_the_Frequently-Used_Programs_for_CME-Lab.md) under the "Installing Visual Molecular Dynamics (VMD)" header.
 1. [Ovito](https://www.ovito.org/macos-downloads/) is a propreitary software package with a free basic version availaible for download. Getting off the ground may be faster with Ovito, but if we outgrow the basic version's 
