@@ -1,3 +1,2 @@
-* *[sentdex a useful youtube channel for learning python](https://www.youtube.com/user/sentdex)
-*  
-* *[stackoverflow, a forum where many people post computer related issues and solutions](https://stackoverflow.com/)
+* [sentdex](https://www.youtube.com/user/sentdex) a useful youtube channel for learning python
+* [stackoverflow](https://stackoverflow.com) a forum where many people post computer related issues and solutions
