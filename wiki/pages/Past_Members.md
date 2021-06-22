@@ -21,3 +21,4 @@ Roughly ordered by year of departure:
 1. Mone't Alberts 
 1. [Mike Henry](https://henrymike.com)
 1. Kendra Noneman 
+1. [Neale Ellyson](https://github.com/nealeellyson)

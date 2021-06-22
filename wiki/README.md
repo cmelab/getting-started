@@ -28,6 +28,7 @@ Also known as the Computational Materials Engineering Lab (CMELab), our lab uses
 * [Jupyter Notebooks](pages/Jupyter_Notebooks.md)
 * [Gigantic list of programming websites](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 * [How to start a new project](pages/How_to_start_a_new_project.md)
+* [How to Visualize Simulations](pages/How_to_visualize.md)
 
 
 ## Software after the very basics - For the Hardware team
@@ -40,7 +41,6 @@ Also known as the Computational Materials Engineering Lab (CMELab), our lab uses
 ## Active Members
 [Eric Jankowski](pages/Prof_Jankowski.md) <- Schedule meetings
 
-1. [Neale Ellyson](https://github.com/nealeellyson)
 1. [Jenny Fothergill](https://github.com/jennyfothergill)
 1. [Chris Jones](https://github.com/chrisjonesBSU)
 1. [Bryton Anderson](https://github.com/bryton91)
