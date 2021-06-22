@@ -1,2 +1,1 @@
-* [The first place to start learning bash.](http://swcarpentry.github.io/shell-novice/)
-* [A slightly more advanced bash tutorial.](https://www.ibm.com/developerworks/library/l-bash/)
+* [Software Carpentry: the Unix Shell](http://swcarpentry.github.io/shell-novice/) a good place to start
