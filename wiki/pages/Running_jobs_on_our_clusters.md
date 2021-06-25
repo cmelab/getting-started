@@ -10,6 +10,67 @@ If you are unsure what 'TPS' stands for and why we want so many of them, you sho
 Also, you'll need accounts on our supercomputing clusters - take a look at [Accounts for computer clusters](Accounts_for_computer_clusters.md) to get set up on Fry and Kestrel.
 
 
+# Order of operations
+### 1. Pull in the planckton image 
+In the home directory of your cluster, create an ```images``` directory
+```
+cd $HOME
+mkdir images
+```
+Inside the images directory, pull in the [planckton](https://github.com/cmelab/planckton) image
+```
+cd images
+singularity pull docker://cmelab/planckton_gpu_v0.4.0.sif
+export PLANCKTON_SIMG=$(pwd)/planckton_gpu_v0.4.0.sif
+```
+
+
+### 2. Clone signac-flow
+Inside of your project workspace clone [signac-flow](https://github.com/glotzerlab/signac-flow.git)
+```
+cd $PROJECT
+git clone https://github.com/glotzerlab/signac-flow.git 
+```
+Inside of the signac-flow clone directory, _____
+```
+cd signac-flow
+git fetch origin pull/441/head:pr441
+git checkout pr441
+pip install .
+```
+
+
+### 3. Clone planckton-flow
+In the home of your project workspace, create a directory called ```jobs``` and clone [planckton-flow](https://github.com/cmelab/planckton-flow) into it. 
+```
+cd $HOME
+mkdir jobs
+cd jobs
+git clone https://github.com/cmelab/planckton-flow.git
+```
+Go into the planckton-flow clone directory, and set up the planckton-flow environment inside of it
+```
+cd planckton-flow
+conda env create -f environment.yml
+conda activate planckton-flow
+```
+
+### 4. Run a job
+Edit the init.py file in the src directory to the variables you want to see ran. Use python to initialize the jobs and then submit the project.py file to run the jobs using the variables you set. Check the status of you job by running the squeue command.
+```
+vim src/init.py
+python src/init.py
+python src/project.py submit
+squeue -u <your username>
+```
+
+
+### Celebrate the fact that you just ran a job!!!
+```
+echo "WOOHOO"
+```
+
+
 # What is a job scheduler and which one am I using? #
 
 
