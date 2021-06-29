@@ -31,7 +31,7 @@ Inside of your project workspace clone [signac-flow](https://github.com/glotzerl
 cd $PROJECT
 git clone https://github.com/glotzerlab/signac-flow.git 
 ```
-Inside of the signac-flow clone directory, _____
+Inside of the signac-flow clone directory, pull commit #441 then checkout the corresponding branch.
 ```
 cd signac-flow
 git fetch origin pull/441/head:pr441
