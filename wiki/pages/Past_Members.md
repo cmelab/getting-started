@@ -22,3 +22,8 @@ Roughly ordered by year of departure:
 1. [Mike Henry](https://henrymike.com)
 1. Kendra Noneman 
 1. [Neale Ellyson](https://github.com/nealeellyson)
+1. [Bryton Anderson](https://github.com/bryton91)
+1. [Mia Klopfenstein](https://github.com/miaklop)
+1. Becky Rice - REU Summer 2021
+1. Bryan Wright - REU Summer 2021
+1. Lina Zhu - REU Summer 2021
