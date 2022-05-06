@@ -15,6 +15,9 @@ You might start by following along with a tutorial:
 * [MoSDeF workflows](https://github.com/mosdef-hub/mosdef-workflows)
 * [Signac tutorials](https://docs.signac.io/en/latest/tutorial.html)
 
+Or reading some good intro papers:
+* [Braun 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6884151/)
+
 Assuming you already tried out some basic MD simulations, a few questions to ask about the system you are modelling:
 
 1. How small of a system is too small? How large is too large (Too large to be practical for your purpose)?
