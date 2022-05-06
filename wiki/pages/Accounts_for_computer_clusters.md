@@ -17,3 +17,8 @@ ssh username@r2.boisestate.edu
 
 For Borah:
 ssh username@borah-login.boisestate.edu
+
+# More cluster help
+For more information, check out the following resources:
+* [Boise State's cluster guides](https://www.boisestate.edu/rcs/cluster-guides/)
+* [CMElab cluster guide](Running_jobs_on_our_clusters.md)
