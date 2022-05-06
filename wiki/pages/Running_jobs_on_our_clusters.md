@@ -7,7 +7,7 @@ The following guide will help you get set up on our main supercomputers, and all
 If you are unsure what 'TPS' stands for and why we want so many of them, you should have a look at the HOOMD tutorials in [MD Tutorials](MD_Tutorials.md) first before looking at this guide.
 
 
-Also, you'll need accounts on our supercomputing clusters - take a look at [Accounts for computer clusters](Accounts_for_computer_clusters.md) to get set up on Fry and Kestrel.
+Also, you'll need accounts on our supercomputing clusters - take a look at [Accounts for computer clusters](Accounts_for_computer_clusters.md) to get set up.
 
 
 # What is a job scheduler and which one am I using? #

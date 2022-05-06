@@ -26,7 +26,7 @@ As you encounter issues you think might come up, feel free to add to the list!
 * [Getting Started With Conda](pages/Getting_Started_With_Conda.md)
 * [Setting up a new Chromebook](pages/Setting_up_a_new_Chromebook.md)
 * [Setting up an OSX Computer](pages/Setting_up_an_OSX_Computer.md)
-* [MD Tutorials](pages/MD_Tutorials.md)
+* [Simulation Tutorials](pages/MD_Tutorials.md)
 * [Setting up an SSH key](pages/Setting_Up_an_SSH_key.md)
 * [Running jobs on our clusters](pages/Running_jobs_on_our_clusters.md)
 * [Slack](pages/Slack.md)
