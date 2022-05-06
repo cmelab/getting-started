@@ -15,6 +15,12 @@ Also known as the Computational Materials Engineering Lab (CMELab), our lab uses
 * [Chromebook Checkout](https://docs.google.com/spreadsheets/d/1q09wjk9HKtRtBNhU_heKF84a3awLpIyzw9q8gPIXRqA/edit?usp=sharing)
 * [Installing the Frequently-Used Programs for CME-Lab](pages/Installing_the_Frequently-Used_Programs_for_CME-Lab.md)
 
+## Common "Gotchas"
+* [Jupyter notebook troubleshooting checklist](pages/jupyter_troubleshooting.md)
+* [Python error debugging checklist](pages/python_debugging.md)
+
+As you encounter issues you think might come up, feel free to add to the list!
+
 ## Software after the very basics - For Simulators
 * More [python](http://bit.ly/2tBTW7W) - (PDF book download)
 * [Getting Started With Conda](pages/Getting_Started_With_Conda.md)
