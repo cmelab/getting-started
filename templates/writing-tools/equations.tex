@@ -1,0 +1,46 @@
+%% General Equations
+%Newtonian F=ma
+\newcommand{\fma}{
+\begin{equation}\label{eq:fma}
+    F = ma
+\end{equation}
+}
+
+%Force derived from energy
+\newcommand{\forceenergy}{
+\begin{equation}\label{eq:force-energy}
+    F = \dfrac{-dV}{dx}
+\end{equation}
+}
+
+%% MD Functional Forces
+% Lennard Jones 12-6
+\newcommand{\pairljeq}{
+\begin{equation}\label{eq:pairlj}
+    V_{LJ}(r) = 4 \epsilon \left[ \left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^6 \right]
+\end{equation}
+}
+% Harmonic bond stretching
+\newcommand{\bondharmoniceq}{
+\begin{equation}\label{eq:bond-harmonic}
+    V_{bond}(l) = \frac{1}{2}k\left(l-l_0\right)^2
+\end{equation}
+}
+% Harmonic bond bending
+\newcommand{\angleharmoniceq}{
+\begin{equation}\label{eq:angle-harmonic}
+    V_{angle}(\theta) = \frac{1}{2}k\left(\theta-\theta_0\right)^2
+\end{equation}
+}
+% Dihedrals (Periodic)
+\newcommand{\dihedralperiodiceq}{
+\begin{equation}\label{eq:dihedral-periodic}
+    V_{torsion}(\phi) = \frac{1}{2}k(1+d\cos{(n\phi - \phi_0)})
+\end{equation}
+}
+% Dihedrals (OPLS)
+\newcommand{\dihedraloplseq}{
+\begin{equation}\label{eq:dihedral-opls}
+    V_{torsion}(\phi) = \frac{1}{2}\left[k_1\left(1+\cos{\phi})+k_2(1-\cos{2\phi})+k_3(1+\cos{3\phi})+k_4(1-\cos{4\phi})\right)\right]
+\end{equation}
+}
