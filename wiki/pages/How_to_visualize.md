@@ -20,3 +20,15 @@ Installation instructions can be found [here](Installing_the_Frequently-Used_Pro
 1. [Ovito](https://www.ovito.org/macos-downloads/) is a propreitary software package with a free basic version availaible for download. Getting off the ground may be faster with Ovito, but if we outgrow the basic version's 
 functionality, someone will have to pay for an upgrade! A notable advantage of Ovito is the ability to
 view the output from a simulation remotely.
+   * We have a frozen image of a compiled version of OVITO from before the paywall was added, hosted on dockerhub. For now it only runs on Linux machines, but you can do things like view two trajectories at once with this image. To run it:
+    ``` 
+    docker pull cmelab/ovito:latest
+    docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -v <path/to/your/local/files>:<desired/path/in/container> -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 cmelab/ovito
+    ```
+    * These docker flags instruct docker, in order:
+      * `--rm`: not to keep the docker container when the instance ends
+      * `-it`: to run interactively in pseudo-tty mode (needed for interactive shell)
+      * `-v /tmp/.X11-unix:/tmp/.X11-unix`: where your computer's X11 socket lives (where to send video stream)
+      * `-v <path/to/your/local/files>:<desired/path/in/container>` (optionally) what files to make visible inside the container, e.g. an MD trajectory
+      * `-e DISPLAY=$DISPLAY` what display environment variable to use
+      * `-e QT_X11_NO_MITSHM=1` to disable shared memory for video buffer (necessary to stream from container)
